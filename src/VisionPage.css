@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .vision-page {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+  }
+  
+  .vision-header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .vision-title {
+    font-size: 2.5rem;
+    color: #000000;
+    margin-bottom: 10px;
+  }
+  
+  .vision-subtitle {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .vision-introduction,
+  .vision-goals,
+  .vision-pillars {
+    margin-bottom: 30px;
+  }
+  
+  .vision-introduction h2,
+  .vision-goals h2,
+  .vision-pillars h2 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .vision-introduction {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+  
+  .intro-image {
+    flex: 1;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .intro-text {
+    flex: 2;
+  }
+  
+  .vision-goals {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .vision-goals-details {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .vision-goal {
+    flex: 1;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 250px;
+  }
+  
+  .pillars-list {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .pillar {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pillar h3 {
+    color: #0056b3;
+    margin-bottom: 10px;
+  }
+  
+  .vision-footer {
+    text-align: center;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .vision-footer h2 {
+    font-size: 1.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .cta-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* VisionPage.css */
+
+.vision-header {
+    text-align: center;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: linear-gradient(135deg, #007bff, #00c6ff);
+    border-radius: 12px;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .vision-title {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .vision-subtitle {
+    font-size: 1.4rem;
+    margin-top: 0;
+    font-style: italic;
+    color: #f1f1f1;
+  }
+  
+  .vision-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 0;
+  }
+  
+  .vision-header h1, .vision-header p {
+    position: relative;
+    z-index: 1;
+  }
+  
